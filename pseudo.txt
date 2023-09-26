@@ -1,0 +1,19 @@
+ENGLISH ENGLISH
+X 1. The user will type a number into the input.
+X 2. The user will click the "PLAY" button
+X 3. The old cards will go away
+X 4. A new random number will be generated
+X 5. New cards will be dealt
+    X a. The number of cards will come from the user's input
+
+CODE ENGLISH
+X 1. TARGET the "PLAY" button (querySelector)
+X 2. Add an event listener ('click') to the play button
+    X 1. Grab the value from the input -- numCards  *parseInt
+        X 1. TARGET the input element
+        X 2. Get its value
+    X 2. Clear the innerHTML of the card container
+        X 1. TARGET the card container
+        X 2. get rid of the old innerHTML
+    3. Call our function to generate cards, and pass it numCards
+X ** Update our function to accept a parameter
